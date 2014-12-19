@@ -1,0 +1,19 @@
+default: &default
+  database: person_finder_development
+  adapter: postgresql
+  user: user
+  password: password
+  host: localhost
+  encoding: UTF-8
+  template: template0
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+  database: person_finder_test
+
+production:
+  <<: *default
+  database: person_finder_production

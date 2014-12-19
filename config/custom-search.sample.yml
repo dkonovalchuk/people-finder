@@ -1,0 +1,14 @@
+api_key: "api_key"
+cx: "cx"
+
+# https://www.google.com/cse/all
+# Create new custom search app, obtain cx from it
+# Allow search on every website in the internet
+#
+# https://console.developers.google.com/project
+# Create new project, add custom search api into it.
+# Goto APIs & auth > Credentials > Public API access
+# > Create new key > Browser Key > Get API KEY
+#
+# Daily custom search limit for free account is 1000 requests
+# One search for person = 3 requests
